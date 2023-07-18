@@ -1,0 +1,35 @@
+<div class="d-flex justify-content-center topContainer">
+  <div class="ms-3 mt-3 outerBox">
+    
+    <div class="mb-2 mt-5 fs-3 fw-bold text-center">Login into your Account</div>
+  
+    <!-- <div class="mb-2">Calender</div>
+    <p-calendar [(ngModel)]="value"></p-calendar> -->
+    
+    <div class=" mt-4 ms-5">
+      <div class="mt-2">Username :</div>
+      <div class="mb-2">
+        <span class="p-float-label">
+          
+          <input style="width: 87%;" id="float-input" [(ngModel)]="name" type="text" pInputText> 
+          <!-- <label for="float-input">Username</label> -->
+          </span>
+      </div>
+    </div>
+    
+    <div class="ms-5 mt-3">
+      <div class="mt-2">Mail ID:</div>
+      <div class="mb-2">
+        <span class="p-float-label">
+          <input style="width: 87%;" [(ngModel)]="mailId" id="float-input" type="text" pInputText> 
+          <!-- <label for="float-input">Username</label> -->
+          </span>
+      </div>
+    </div>
+    <div class="mt-4 text-end ">
+      <button style="margin-right: 4em;" pButton type="button" label="Click" (click)="loggin()" ></button>
+    </div>
+  
+  
+  </div>
+</div>
